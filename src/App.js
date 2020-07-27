@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
+import Login from './pages/Login';
 
 function App() {
   const [routes, setRoutes] = useState({})
@@ -24,11 +25,8 @@ function App() {
 
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>React Node Redis Auth</p>
-        
-      </header>
+    <div>
+        <Login />
     </div>
   );
 }
